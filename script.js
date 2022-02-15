@@ -86,6 +86,18 @@ var func10 = function fexp () {
 }
 
 
+// passing function as parameter 
+
+function cb () {
+    console.log("function invoked");
+}
+
+function demo14 (cb) {
+    cb();
+}
+demo14(cb);
+
+
 // iterating over aaray 
 
 //for loop
